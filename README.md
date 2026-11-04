@@ -18,7 +18,7 @@
 [![OSF Preregistration](https://img.shields.io/badge/OSF-Preregistered-blue?logo=osf&logoColor=white)](https://osf.io/vmx2u)
 [![OSF Project](https://img.shields.io/badge/OSF-Project-blue?logo=osf&logoColor=white)](https://osf.io/vmx2u)
 [![Registration DOI](https://img.shields.io/badge/Reg.%20DOI-10.17605/OSF.IO/8NZV2-blue)](https://doi.org/10.17605/OSF.IO/8NZV2)
-[![Internet Archive](https://img.shields.io/badge/Internet%20Archive-Preserved-darkgreen?logo=internetarchive)](https://archive.org/details/osf-registrations-XXXXX-v1)
+[![Internet Archive](https://img.shields.io/badge/Internet%20Archive-Preserved-darkgreen?logo=internetarchive)](https://archive.org/details/osf-registrations-8nzv2-v1)
 [![License: CC BY 4.0](https://img.shields.io/badge/Registration%20License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
 <!-- Stack -->
@@ -285,8 +285,8 @@ The two programs are **methodologically independent**. RQ-D1 is retained as a qu
 | **Zenodo** | [doi.org/10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Citable DOI, paper archive |
 | **Figshare** | [10.6084/m9.figshare.34908597](https://doi.org/10.6084/m9.figshare.34908597) | Secondary archive (figures, data) |
 | **Website** | [pcr-ai.netlify.app](https://pcr-ai.netlify.app) | Live documentation |
-| **OSF** | [osf.io/vmx2u](https://osf.io/vmx2u) | Preregistration |
-| **Internet Archive** | [archive.org/details/osf-registrations-XXXXX-v1](https://archive.org/details/osf-registrations-XXXXX-v1) | Permanent preservation |
+| **OSF** | [osf.io/vmx2u](https://osf.io/vmx2u) | Registration |
+| **Internet Archive** | [archive.org/details/osf-registrations-8nzv2-v1](https://archive.org/details/osf-registrations-8nzv2-v1) | Permanent preservation |
 | **ORCID** | [orcid.org/0009-0003-8903-0029](https://orcid.org/0009-0003-8903-0029) | Author identity |
 
 ---
@@ -321,15 +321,15 @@ PCR_AI/
 │       └── input.json
 ├── EXTERNAL_REVIEW/
 │   ├── review_PCR_AI_2026-11-04.md
-│   ├── review_coordinator.json
+│   └── review_coordinator.json
 ├── PUBLICATION/
 │   ├── Netlify/                        # Official project website
 │   │   ├── netlify.toml
 │   │   ├── project.json
 │   │   └── public/
 │   ├── dist/
-│   │   ├── pcr-ai-1.0.0-py3-none-any.whl
-│   │   └── pcr-ai-1.0.0.tar.gz
+│   │   ├── pcr_ai-0.1.0-py3-none-any.whl
+│   │   └── pcr_ai-0.1.0.tar.gz
 │   └── Production_Control_Representations_In_Artificial_Intelligence.pdf
 ├── REPORTS/                            # Audit, compliance, and consistency reports
 ├── VALIDATION/
@@ -350,7 +350,8 @@ PCR_AI/
 ├── scientific_state.json
 ├── requirements.txt
 ├── setup.cfg
-└── setup.py
+├── setup.py
+└── upload_pcr.py
 
 ```
 
@@ -365,7 +366,7 @@ PCR_AI/
 
 **Registration DOI:** `10.17605/OSF.IO/8NZV2`
 **Project:** [osf.io/vmx2u](https://osf.io/vmx2u)
-**Archive:** [Internet Archive](https://archive.org/details/osf-registrations-XXXXX-v1)
+**Archive:** [Internet Archive](https://archive.org/details/osf-registrations-8nzv2-v1)
 **License:** CC-By Attribution 4.0 International
 
 ---
@@ -375,7 +376,7 @@ PCR_AI/
 | Version | Release | Focus | Status |
 |---|---|---|---|
 | **v0.2** | 2026-11 | Conceptual Architecture adopted | ✅ Adopted |
-| **v0.1** | 2026-11 | Authority Structure, Lifecycle, Questions specified | ⏳ Pending |
+| **v0.2** | 2026-11 | Authority Structure, Lifecycle, Questions adopted | ✅ Adopted |
 | **v0.1** | 2026-11 | Initial Program Manuscript — Architecture Specification Stage | Research |
 
 > **Status note:** No empirical or analytical examination of specific systems has been undertaken. The five functional units, five authorities, six lifecycle stages, and five alternative paths are **analytical proposals, not empirically validated categories**.
@@ -394,11 +395,11 @@ PCR_AI/
   type         = {Research Protocol},
   year         = {2026},
   month        = {November},
-  version      = {0.1},
+  version      = {0.1.0},
   doi          = {10.5281/zenodo.23940837},
   url          = {https://doi.org/10.5281/zenodo.23940837},
   note         = {Initial Program Manuscript --- Architecture Specification Stage.
-                  All four foundational documents adopted (v0.2): Conceptual Architecture, Authority Structure, Representation Lifecycle, and Research Questions.}
+                  All four foundational documents adopted (v0.2).}
 }
 ```
 
@@ -409,7 +410,7 @@ https://zenodo.org/badge/DOI/10.5281/zenodo.23940837.svg
 ```bibtex
 @software{baladi2026pcr-ai,
   author       = {Baladi, Samir},
-  title        = {{PCR\_AI} v1.0.0: Reference Implementation for Research II --- The Production and Control of Representations in Artificial Intelligence},
+  title        = {{PCR\_AI} v0.1.0: Reference Implementation for Research II --- The Production and Control of Representations in Artificial Intelligence},
   year         = {2026},
   month        = {November},
   publisher    = {Zenodo},
@@ -428,14 +429,14 @@ https://img.shields.io/badge/Reg.%20DOI-10.17605/OSF.IO/8NZV2-blue
 ```bibtex
 @misc{baladi2026pcr-ai_osf,
   author       = {Baladi, Samir},
-  title        = {{PCR\_AI}: Preregistration --- Research II Protocol},
+  title        = {{PCR\_AI}: Registration --- Research II Protocol},
   year         = {2026},
   month        = {November},
   publisher    = {OSF Registries},
   doi          = {10.17605/OSF.IO/8NZV2},
   url          = {https://doi.org/10.17605/OSF.IO/8NZV2},
-  note         = {OSF Preregistration. Associated project: https://osf.io/vmx2u.
-                  Archived: https://archive.org/details/osf-registrations-XXXXX-v1.
+  note         = {OSF Registration. Associated project: https://osf.io/vmx2u.
+                  Archived: https://archive.org/details/osf-registrations-8nzv2-v1.
                   License: CC-By Attribution 4.0 International.}
 }
 ```
