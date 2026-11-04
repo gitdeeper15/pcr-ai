@@ -1,0 +1,80 @@
+cff-version: 1.2.0
+title: "The Production and Control of Representations in Artificial Intelligence — Research II: A Conceptual Architecture, Authority Structure, Representation Lifecycle, and Research Protocol"
+message: "If you use this research, data, or code, please cite as below."
+type: software
+version: "0.1.0"
+date-released: "2026-11-04"
+license: MIT
+abstract: |
+  Research II examines the structural relations through which
+  representations are constituted before they reach a recipient,
+  treating representation itself as the central analytical object
+  rather than treating the model, the platform, or the user in
+  isolation.
+
+  The program specifies four foundational documents: a Conceptual
+  Architecture (adopted, v0.2) distinguishing five functional units;
+  an Authority Structure (pending, v0.1) distinguishing five authority
+  types; a Representation Lifecycle (pending, v0.1) tracing six
+  structural stages and five alternative paths; and a Research
+  Questions document (pending, v0.1) formulating twenty questions
+  across four families.
+
+  No empirical work has been performed under this protocol. The
+  literature review, methodological scope, and system selection remain
+  to be determined following adoption of the four foundational
+  documents. This manuscript presents an architecture and a research
+  protocol, not findings.
+keywords:
+  - AI-mediated representations
+  - structural analysis
+  - representational authority
+  - platform studies
+  - human-AI interaction
+  - research protocol
+  - authority structure
+  - representation lifecycle
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    email: "gitdeeper@gmail.com"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+repository-code: "https://github.com/gitdeeper15/pcr-ai"
+url: "https://pcr-ai.netlify.app"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23940837"
+  - type: url
+    value: "https://doi.org/10.5281/zenodo.23940837"
+  - type: url
+    value: "https://github.com/gitdeeper15/pcr-ai"
+  - type: url
+    value: "https://gitlab.com/gitdeeper/pcr-ai"
+  - type: url
+    value: "https://codeberg.org/gitdeeper/pcr-ai"
+  - type: url
+    value: "https://bitbucket.org/gitdeeper/pcr-ai"
+  - type: doi
+    value: "10.6084/m9.figshare.34908597"
+  - type: url
+    value: "https://doi.org/10.6084/m9.figshare.34908597"
+  - type: doi
+    value: "10.17605/OSF.IO/8NZV2"
+  - type: url
+    value: "https://osf.io/vmx2u"
+  - type: url
+    value: "https://pypi.org/project/pcr-ai/"
+  - type: url
+    value: "https://pcr-ai.netlify.app"
+references:
+  - type: software
+    title: "Research I — Epistemic Discipline in the Age of Artificial Intelligence: A Three-Study Research Protocol"
+    authors:
+      - family-names: "Baladi"
+        given-names: "Samir"
+        orcid: "https://orcid.org/0009-0003-8903-0029"
+    version: "1.0.0"
+    date-released: "2026"
+    doi: "10.5281/zenodo.23876902"
+    url: "https://doi.org/10.5281/zenodo.23876902"

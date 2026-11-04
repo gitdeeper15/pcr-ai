@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "PCR_AI/validation/authority_schema",
+  "title": "Authority Distribution Validation",
+  "description": "Validates that authority assignments respect the five pairwise distinctions (Section 4.5).",
+  "type": "object",
+  "required": ["system_id", "representation_id", "authorities"],
+  "properties": {
+    "system_id": { "type": "string" },
+    "representation_id": { "type": "string" },
+    "authorities": {
+      "type": "object",
+      "required": ["production", "transformation", "selection", "distribution", "interpretive"],
+      "properties": {
+        "production": { "type": ["string", "null"] },
+        "transformation": { "type": ["string", "null"] },
+        "selection": { "type": ["string", "null"] },
+        "distribution": { "type": ["string", "null"] },
+        "interpretive": { "type": ["string", "null"] }
+      }
+    },
+    "pairwise_distinctions": {
+      "type": "object",
+      "properties": {
+        "production_perp_transformation": { "type": "boolean" },
+        "transformation_perp_selection": { "type": "boolean" },
+        "selection_perp_distribution": { "type": "boolean" },
+        "distribution_perp_interpretation": { "type": "boolean" },
+        "production_perp_interpretation": { "type": "boolean" }
+      }
+    }
+  }
+}

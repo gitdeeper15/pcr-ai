@@ -1,0 +1,42 @@
+# PCR_AI - Project Summary
+
+**Domain:** philosophy
+**Subdiscipline:** Science and Technology Studies
+**Truth Score:** N/A (no empirical work performed under this protocol)
+**Stage:** PROTOCOL
+
+## Entities:
+- Producer, Origination Function, N/A
+- Model / Generative System, Transformation Function, N/A
+- Platform / Controller, Governance Function, N/A
+- Distribution Interface, Presentation Function, N/A
+- Recipient / Consumer, Reception Function, N/A
+
+## Status:
+- Stage: PROTOCOL (architecture specification)
+- Quality Gate: PENDING (three of four foundational documents not yet adopted)
+- Empirical Work: NOT PERFORMED
+- Literature Review: NOT CONDUCTED
+- Methodological Scope: DEFERRED (RQ-D2)
+
+## Foundational Documents:
+- Conceptual Architecture, v0.2, ADOPTED
+- Authority Structure, v0.1, PENDING ADOPTION
+- Representation Lifecycle, v0.1, PENDING ADOPTION
+- Research Questions, v0.1, PENDING ADOPTION
+
+## Structural Counts:
+- Functional Units: 5
+- Authority Types: 5
+- Lifecycle Stages: 6
+- Alternative Paths: 5
+- Research Questions: 20 (4 families)
+
+## Note:
+This summary was manually corrected to reflect the protocol state.
+The automated orchestrator will regenerate this file; the generator
+should be updated to emit N/A for Truth Score and PENDING for Quality
+Gate until the three pending foundational documents are adopted and
+the methodological scope is determined (RQ-D2).
+
+Generated: 2026-11-04 (manually corrected)

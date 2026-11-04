@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "PCR_AI/validation/lifecycle_schema",
+  "title": "Lifecycle Path Validation",
+  "description": "Validates that a lifecycle path is one of the six structurally specified paths (Section 5.3–5.4).",
+  "type": "object",
+  "required": ["system_id", "representation_id", "path_type", "stages"],
+  "properties": {
+    "system_id": { "type": "string" },
+    "representation_id": { "type": "string" },
+    "path_type": {
+      "type": "string",
+      "enum": ["canonical", "merged", "skipped_transformation", "skipped_selection", "distributed_origination", "iterative_re_origination"]
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["origination", "transformation", "selection", "distribution", "reception", "re_origination"]
+      }
+    },
+    "interruption_points": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["origination", "transformation", "selection", "distribution", "reception"]
+      }
+    }
+  }
+}

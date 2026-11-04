@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Data & Analysis
+DATA/raw/*
+DATA/processed/*
+ANALYSIS/*.json
+!ANALYSIS/analysis_insights.json
+
+# Reports (generated)
+REPORTS/*.json
+!REPORTS/audit_log.json
+
+# Validation
+VALIDATION/.lock/*
+!VALIDATION/.lock/language_lock_report.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Backups
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Pytest
+.pytest_cache/
+
+# LaTeX / PDF build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Manuscript drafts
+PUBLICATION/drafts/

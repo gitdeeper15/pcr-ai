@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "PCR_AI/validation/function_schema",
+  "title": "Function Assignment Validation",
+  "description": "Validates that a representation's function assignment respects the five foundational distinctions (Section 3.6).",
+  "type": "object",
+  "required": ["system_id", "representation_id", "functions"],
+  "properties": {
+    "system_id": { "type": "string" },
+    "representation_id": { "type": "string" },
+    "functions": {
+      "type": "object",
+      "required": ["producer", "model", "platform", "interface", "recipient"],
+      "properties": {
+        "producer": { "type": ["string", "null"] },
+        "model": { "type": ["string", "null"] },
+        "platform": { "type": ["string", "null"] },
+        "interface": { "type": ["string", "null"] },
+        "recipient": { "type": ["string", "null"] }
+      }
+    },
+    "distinctions_respected": {
+      "type": "object",
+      "properties": {
+        "production_neq_control": { "type": "boolean" },
+        "control_neq_distribution": { "type": "boolean" },
+        "distribution_neq_reception": { "type": "boolean" },
+        "function_neq_owner": { "type": "boolean" },
+        "governance_neq_execution": { "type": "boolean" }
+      }
+    }
+  }
+}

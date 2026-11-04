@@ -1,0 +1,17 @@
+category_id,category_name,category_type,platform_governance,media_sociology,algorithmic_accountability,ant_infrastructure,hai,overall_classification,notes
+F1,Producer,function,B,C,C,B,B,Reorganized,Production as authorship vs. supply is distinguished in media sociology; platform governance rarely separates Producer from Model
+F2,Model / Generative System,function,C,C,B,C,B,Reorganized,Generative system as transformation is undertheorized in most traditions; algorithmic accountability treats it as black box
+F3,Platform / Controller,function,A,B,B,A,B,Redundant,Platform governance is the primary tradition examining this function; heavily theorized
+F4,Distribution Interface,function,A,C,B,B,C,Redundant,Interface as site of control is well-covered in platform governance and algorithmic accountability
+F5,Recipient / Consumer,function,C,B,C,C,A,Reorganized,Recipient as active interpreter is HAI's primary contribution; other traditions treat as passive
+A1,Production Authority,authority,C,B,B,B,C,Reorganized,Authority vs. function distinction is not systematically made in most traditions
+A2,Transformation Authority,authority,C,C,B,B,B,Reorganized,"Downgraded from Distinct (Stage 2b): transformation as an act is theorized (editing, moderation, re-ranking), but not as a distinct authority."
+A3,Selection Authority,authority,A,B,B,C,B,Redundant,Well-covered in platform governance and recommender systems research
+A4,Distribution Authority,authority,A,C,B,C,C,Reorganized,Distinguished from selection in some but not all traditions
+A5,Interpretive Authority,authority,C,C,B,B,A,Reorganized,"Downgraded from Distinct (Stage 2b): interpretation is theorized as reception (Hall, Morley, Fiske) and as framing, but not as a structural authority."
+L1,Origination,stage,C,B,B,B,B,Reorganized,"Origination is treated as authorship in media sociology, as input in algorithmic accountability"
+L2,Transformation,stage,C,C,B,C,B,Reorganized,"Downgraded from Distinct (Stage 2b): transformation as a technical stage is theorized (editing, moderation), but not as a structural stage."
+L3,Selection,stage,A,B,B,C,B,Redundant,"Selection is the most heavily theorized stage (ranking, filtering, curation)"
+L4,Distribution,stage,A,C,B,B,C,Reorganized,Distribution is covered but often conflated with selection in platform governance
+L5,Reception,stage,C,B,C,C,A,Reorganized,Reception as active interpretation is HAI's contribution; media sociology treats it as audience reception
+L6,Re-origination,stage,C,B,C,B,B,Distinct,Confirmed Distinct (Stage 2b): re-origination as a structural stage is not theorized in any tradition.

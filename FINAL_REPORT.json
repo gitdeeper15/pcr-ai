@@ -1,0 +1,9 @@
+{
+  "_status": "MOVED — see REPORTS/orchestrator_final_report_2026-11-04.json",
+  "_reason": "This file was an orchestrator run log, not a scientific report. It has been moved to REPORTS/ with a disclaimer clarifying that 'quality_gate_passed: true' refers to agent execution, not to research quality.",
+  "_authoritative_source_for_scientific_state": "scientific_state.json",
+  "_note": "The research protocol (Section 9.3) states that no empirical work has been performed. Three of the four foundational documents remain pending adoption. Quality Gate for the research itself is PENDING.",
+  "_moved_to": "REPORTS/orchestrator_final_report_2026-11-04.json",
+  "_original_timestamp": "2026-11-04T08:01:59.021038",
+  "_relocated_on": "2026-11-04"
+}

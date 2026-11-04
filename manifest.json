@@ -1,0 +1,81 @@
+{
+  "manifest_version": "1.0",
+  "project": {
+    "name": "PCR_AI",
+    "full_title": "The Production and Control of Representations in Artificial Intelligence — Research II: A Conceptual Architecture, Authority Structure, Representation Lifecycle, and Research Protocol",
+    "short_title": "Research II — Production and Control of Representations",
+    "version": "0.1.0",
+    "type": "research_protocol",
+    "status": "architecture_specification_stage",
+    "release_date": "2026-11-04",
+    "language": "en",
+    "doi": "10.5281/zenodo.23940837",
+    "doi_url": "https://doi.org/10.5281/zenodo.23940837"
+  },
+  "author": {
+    "name": "Samir Baladi",
+    "role": "Interdisciplinary AI Researcher",
+    "affiliation": "Ronin Institute / Rite of Renaissance",
+    "email": "gitdeeper@gmail.com",
+    "orcid": "0009-0003-8903-0029"
+  },
+  "foundational_documents": [
+    {
+      "id": "01",
+      "name": "Conceptual Architecture",
+      "version": "0.2",
+      "status": "adopted",
+      "source_section": "3"
+    },
+    {
+      "id": "02",
+      "name": "Authority Structure",
+      "version": "0.1",
+      "status": "pending_adoption",
+      "source_section": "4"
+    },
+    {
+      "id": "03",
+      "name": "Representation Lifecycle",
+      "version": "0.1",
+      "status": "pending_adoption",
+      "source_section": "5"
+    },
+    {
+      "id": "04",
+      "name": "Research Questions",
+      "version": "0.1",
+      "status": "pending_adoption",
+      "source_section": "6"
+    }
+  ],
+  "research_questions": {
+    "total": 20,
+    "families": {
+      "A_conceptual": 3,
+      "B_authority": 6,
+      "C_lifecycle": 5,
+      "D_boundary": 2
+    }
+  },
+  "methodological_scope": "deferred (RQ-D2)",
+  "empirical_work_performed": false,
+  "literature_review_conducted": false,
+  "originality_claim": "not established (pending literature review)",
+  "links": {
+    "official_site": "https://pcr-ai.netlify.app",
+    "github": "https://github.com/gitdeeper15/pcr-ai",
+    "gitlab": "https://gitlab.com/gitdeeper/pcr-ai",
+    "codeberg": "https://codeberg.org/gitdeeper/pcr-ai",
+    "bitbucket": "https://bitbucket.org/gitdeeper/pcr-ai",
+    "pypi": "https://pypi.org/project/pcr-ai/",
+    "zenodo": "https://doi.org/10.5281/zenodo.23940837",
+    "osf": "https://osf.io/vmx2u",
+    "figshare": "https://doi.org/10.6084/m9.figshare.34908597",
+    "osf_doi": "10.17605/OSF.IO/8NZV2"
+  },
+  "license": {
+    "code": "MIT",
+    "manuscript_figures_documentation": "CC-BY-4.0"
+  }
+}
