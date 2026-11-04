@@ -278,9 +278,9 @@ The two programs are **methodologically independent**. RQ-D1 is retained as a qu
 | Platform | URL | Role |
 |---|---|---|
 | **GitHub (Primary)** | [github.com/gitdeeper15/pcr-ai](https://github.com/gitdeeper15/pcr-ai) | Source code, issues, PRs |
-| **GitLab** | [gitlab.com/gitdeeper/pcr-ai](https://gitlab.com/gitdeeper/pcr-ai) | Mirror repository |
-| **Codeberg** | [codeberg.org/gitdeeper/pcr-ai](https://codeberg.org/gitdeeper/pcr-ai) | Mirror repository |
-| **Bitbucket** | [bitbucket.org/gitdeeper/pcr-ai](https://bitbucket.org/gitdeeper/pcr-ai) | Mirror repository |
+| **GitLab** | [gitlab.com/gitdeeper15/pcr-ai](https://gitlab.com/gitdeeper15/pcr-ai) | Mirror repository |
+| **Codeberg** | [codeberg.org/gitdeeper15/pcr-ai](https://codeberg.org/gitdeeper15/pcr-ai) | Mirror repository |
+| **Bitbucket** | [bitbucket.org/gitdeeper15/pcr-ai](https://bitbucket.org/gitdeeper15/pcr-ai) | Mirror repository |
 | **PyPI** | [pypi.org/project/pcr-ai](https://pypi.org/project/pcr-ai/) | Python package distribution |
 | **Zenodo** | [doi.org/10.5281/zenodo.23940837](https://doi.org/10.5281/zenodo.23940837) | Citable DOI, paper archive |
 | **Figshare** | [10.6084/m9.figshare.34908597](https://doi.org/10.6084/m9.figshare.34908597) | Secondary archive (figures, data) |
